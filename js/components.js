@@ -2,7 +2,7 @@ const AnswerInput = (i) => `
     <input
         type="text"
         class="w-full pr-16 input input-primary input-bordered"
-        placeholder="Answer ${i || ""}"
+        placeholder="Choice ${i || ""}"
     />
 `;
 
@@ -21,12 +21,12 @@ const MultipleAnswers = () => `
         <input
             type="text"
             class="w-full pr-16 input input-primary input-bordered"
-            placeholder="Answer 1"
+            placeholder="Choice 1"
         />
         <input
             type="text"
             class="w-full pr-16 input input-primary input-bordered"
-            placeholder="Answer 2"
+            placeholder="Choice 2"
         />
     </div>
     <button
@@ -41,7 +41,7 @@ const MultipleAnswers = () => `
         "
         type="button"
     >
-        <span> New Answer </span> <span class="text-2xl ml-1">+</span>
+        <span> New Choice </span> <span class="text-2xl ml-1">+</span>
     </button>
 `;
 
